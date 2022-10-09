@@ -8,7 +8,7 @@ const Orders = () => {
     const [cart,setcart] = useState(previousCart);
     return (
         <div className='shop-container'>
-           <div className='products-container'>
+           <div className='orders-container'>
             {
                 cart.map(product => <ReviewItem
                 key={product.id}

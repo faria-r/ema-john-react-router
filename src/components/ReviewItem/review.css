@@ -1,10 +1,11 @@
 .review-item{
     display: flex;
     border: 1px solid red;
+    border-radius: 8px;
     align-items: center;
     width: 571px;
-    margin: 0 auto;
-    padding: 8px;;
+    margin: 21px auto;
+    padding: 8px;
 }
 .review-item img{
     width: 91px;
@@ -26,6 +27,10 @@
     border-radius: 50%;
     border: none;
     background-color: coral;
+}
+.btn-delete:hover{
+    background-color: cornflowerblue;
+    
 }
 .delet-icon{
     font-size: 31px;
